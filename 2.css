@@ -4,24 +4,54 @@
     box-sizing: border-box;
 }
 
+.elem {
+    /* margin-left: 55px; */
+    margin: 172px 50px;
+    width: 10%;
+    /* height: 10vh; */
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+    /* display: flex; */
+    border: 1px solid;
+    border-radius: 880px;
+    background-color: rgba(255, 72, 0, 0.664);
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* box-sizing: border-box; */
+}
+
 .bgimg1 {
     background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: 0%;
     width: 100%;
     background-size: cover;
-    height: 30vh
+    height: 50vh
+}
+
+.bgclr1 {
+    background-color: rgb(138, 138, 138);
+    height: 50vh;
+    /* padding: 5px 30px; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 .hStyle {
     font-family: 'Festive', cursive;
     /* font-family: cursive; */
     font-weight: 1000;
-    font-size: 500%;
+    font-size: 900%;
     font-style: italic;
     text-align: center;
     /* justify-content: center; */
-    line-height: 30vh;
+    line-height: 50vh;
     align-items: center;
-    color: rgba(197, 4, 4, 0.835);
+    color: rgb(255, 72, 0);
+}
+
+ul {
+    text-align: center;
+    font-family: cursive;
 }
