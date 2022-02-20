@@ -3,29 +3,68 @@
     padding: 0%;
     box-sizing: border-box;
 }
+section { 
+    height: 50px;
+    background-color: darkgray;
+}
+.s1 {   
+    float: right;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 30px;
+    display: inline-block;
+    /* border: 1px solid; */
+   
+}
+.s2{
+    float: left;
+    width: 200px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    
+
+    }
+    .s2 red{
+        font-size: 32px;
+        font-weight: 700;
+        color: darkgreen;
+    }
+
 
 .elem {
     /* margin-left: 55px; */
     margin: 172px 50px;
-    width: 10%;
-    /* height: 10vh; */
+    width: 190px;
+    font-size: 20px;
+    color: white;
+    height: 190px;
     text-align: center;
-    line-height: 60px;
+    line-height: 180px;
     display: inline-block;
     /* display: flex; */
-    border: 1px solid;
+    border: 5px solid;
+    border-color: brown;
     border-radius: 880px;
-    background-color: rgba(255, 72, 0, 0.664);
+    background-color: rgba(2, 8, 26, 0.794);
     /* justify-content: center; */
     /* align-items: center; */
     /* box-sizing: border-box; */
 }
-
+.llr {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
 .bgimg1 {
     background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
     background-position: 0%;
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
     height: 50vh
 }
@@ -48,10 +87,6 @@
     /* justify-content: center; */
     line-height: 50vh;
     align-items: center;
-    color: rgb(255, 72, 0);
+    color: rgb(255, 8, 0);
 }
 
-ul {
-    text-align: center;
-    font-family: cursive;
-}
