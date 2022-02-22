@@ -18,10 +18,16 @@ section {
     /* border: 1px solid; */
    
 }
+.s1:hover{
+    background-color: darkslategrey;
+    cursor: pointer;
+    width: 120px;
+    
+}
 .s2{
     float: left;
     width: 200px;
-    height: 50px;
+    height: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: bold;
     font-size: 30px;
@@ -39,7 +45,7 @@ section {
 
 .elem {
     /* margin-left: 55px; */
-    margin: 172px 50px;
+    margin: 100px 50px;
     width: 190px;
     font-size: 20px;
     color: white;
@@ -72,6 +78,8 @@ section {
 .bgclr1 {
     background-color: rgb(138, 138, 138);
     height: 50vh;
+    border: 1px solid;
+    border-color: crimson;
     /* padding: 5px 30px; */
     /* justify-content: center; */
     /* align-items: center; */
