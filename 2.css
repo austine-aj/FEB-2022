@@ -3,11 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
-section { 
+
+section {
     height: 50px;
     background-color: darkgray;
 }
-.s1 {   
+
+.s1 {
     float: right;
     width: 120px;
     height: 50px;
@@ -16,29 +18,32 @@ section {
     font-size: 30px;
     display: inline-block;
     /* border: 1px solid; */
-   transition:2s;
-   position: relative;
+    transition: 2s;
+    position: relative;
 }
-.s1:hover{
+
+.s1:hover {
     background-color: rgb(80, 105, 105);
     cursor: pointer;
     width: 120px;
     border-radius: 50px;
-    transform:scale(1,1.1);
-    
-    
+    transform: scale(1, 1.1);
 }
-.drpdwn{
-    /* position: absolute; */
-    background-color: rgb(80, 105, 105) ;
-    list-style: none;
-    border-radius: 50px;
-    display: none;
-}
-ul:hover{
+
+.dropDown :hover {
     display: block;
 }
-.s2{
+
+#drpd {
+    position: absolute;
+    background-color: rgb(80, 105, 105);
+    border-radius: 10px;
+    width: 120px;
+    list-style-type: none;
+    display: none;
+}
+
+.s2 {
     float: left;
     width: 200px;
     height: 45px;
@@ -47,22 +52,22 @@ ul:hover{
     font-size: 30px;
     line-height: 1.5;
     text-align: center;
-    
+}
 
-    }
-    .s2 b{
-        /* font-size: 32px;
+.s2 b {
+    /* font-size: 32px;
         font-weight: 700; */
-        color: darkgreen;
-    }
-.clear{
+    color: darkgreen;
+}
+
+.clear {
     clear: both;
 }
 
 .elem {
     /* margin-left: 55px; */
     margin: 100px 25px;
-    width: 200px; 
+    width: 200px;
     font-size: 23px;
     color: white;
     height: 180px;
@@ -80,13 +85,16 @@ ul:hover{
     /* align-items: center; */
     /* box-sizing: border-box; */
 }
-.elem:hover{
-    transform:scale(1,1.1);
+
+.elem:hover {
+    transform: scale(1, 1.1);
 }
+
 .llr {
     text-align: center;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 .bgimg1 {
     background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
     background-repeat: no-repeat;
@@ -118,21 +126,23 @@ ul:hover{
     align-items: center;
     color: rgb(255, 8, 0);
 }
-.bgImg2{
+
+.bgImg2 {
     background-image: url(./images/graffiti_wall-wallpaper-2560x1440.jpg);
     height: 50vh;
     background-position: 70% 70%;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-}
-.bgclr2{
+.bgclr2 {
     background-color: #172333;
-    height:50vh;
+    height: 50vh;
 }
-.elem2{
+
+.elem2 {
     margin: 60px 80px;
     display: inline-block;
     width: 500px;
-    height:200px;
+    height: 200px;
 }
